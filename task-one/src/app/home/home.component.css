@@ -6,20 +6,7 @@
     width: 900px;
     background-color: aqua;
 } */
-.company-header-background{
-    background-color: blue;
-    
-}
 
-
-#logo{
-    width: 100px;
-}
-
-.company-header{
-    padding: 25px;
-    
-}
 
 
 .container-fluid{
@@ -27,14 +14,6 @@
 }
 
 
-.company-header-imp-links{
-    background-color: antiquewhite;
-}
-
-.imp-links a{
-    text-decoration: none;
-    color: black;
-}
 
 
 /*           _________________modal_______________             */

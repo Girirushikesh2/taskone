@@ -1,0 +1,31 @@
+.company-header-background{
+    background-color: blue;
+    
+}
+
+
+#logo{
+    width: 100px;
+}
+
+
+
+
+.container-fluid{
+    width: 900px;
+}
+
+
+.company-header-imp-links{
+    background-color: antiquewhite;
+}
+
+.imp-links a{
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+   
+}
+.imp-links a:hover{
+    color: blue;
+}
