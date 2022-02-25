@@ -1,0 +1,16 @@
+.company-footer-two{
+    background-color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+.container-fluid{
+    width: 900px;
+    color: white;
+}
+
+.company-footer-one{
+    background-color: blue;
+    padding: 25px;
+}
