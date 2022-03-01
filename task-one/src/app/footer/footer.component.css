@@ -6,7 +6,8 @@
 }
 
 .container-fluid{
-    width: 900px;
+    width: 80%;
+    padding: 25px;
     color: white;
 }
 

@@ -2,13 +2,13 @@
     <div class="row" >
         <div class="col-12">
             <div class="row">
-                <div class="col-10 align-self-start">
+                <div class="col-lg-10 align-self-start">
                     <img id="refresh-logo" src="assets/images/brsupplies_refreshLogo.png" alt="refresh-logo" height="40">
                     <span id="vertical-line"></span>
                     <span class="heading">Subscription Service Dashboard</span>
                     
                 </div>
-                <div class="col-2 align-self-end">
+                <div class="col-lg-2 align-self-end">
                     <div class="row">
                         <div class="col-12">Hi, Name</div>
                         <div class="col-12">
@@ -28,7 +28,7 @@
     
 </div>
 
-<div class="container-fluid second-header">
+<div class="container-fluid second-header mb-0 pb-0">
     <div class="row align-items-end">
         <div class="col heading-one">
             <p>Power Overview <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
@@ -48,35 +48,17 @@
     
 
          
-    <!-- <select class="col-12 dropdown" type="select" >
-        <option>
-            <div class="row">
-                <div class="col">
-                    <img src="/task-one/src/assets/images/bro_logo.png" style="height: 25px;" >
-                </div>
-                <div class="row">
-                    <p>Printer model-name</p>
-                </div>
-            </div>
-        </option>
-        <option style="height:50px;"> <img  src="assets/images/brsupplies_refreshLogo.png" alt="refresh-logo" ></option>
-        
-    </select> -->
+    
 
       
     
 
 </div>
-<!-- <div class="dropdown" data-dropdown="alpha">
-    <button class="link" data-dropdown-button="#beta">Information</button>
-    <div class="dropdown-menu">
-        <p>dropdown content Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis commodi blanditiis voluptatem praesentium odio culpa iste et laborum, nihil tempora consequuntur iure sint! Consequatur dolore voluptatum voluptas dicta sapiente tenetur.</p>
-    </div>
-</div> -->
 
 
-<div class="container-fluid">
-    <div class="btn-group col-12">
+
+<div class="container-fluid mt-0 pt-0">
+    <!-- <div class="btn-group col-12">
         <button class="btn btn-lg dropdown-toggle dropdown-one" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Large button
         </button>
@@ -91,11 +73,25 @@
                 </div>
             </div>
         </ul>
+    </div> -->
+    
+        
+    <div class="row current-printer col-12">
+        <div class="col-1 ms-3 me-3 mt-3 mb-3">
+            <img src="assets/images/Brother-MFC-J6530DW-30096457-01.jpg" width="70px">
+        </div>
+        <div class="col mt-2">
+            <p style=" margin-bottom: 0;"><b>DCP-L2550DW/ U64966D2A201379</b><br>Plan : Occasional - Device: <b>Offline</b></p>
+        </div>
     </div>
+        
+
+ 
+    
 
     
 
-    <div>
+    <!-- <div>
         <select type="select" class="col-12">
             <option>
                 <ul class="dropdown-menu col-12">
@@ -110,12 +106,12 @@
                 </ul>
             </option>
         </select>
-    </div>
+    </div> -->
 
 
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid mt-0 pt-0">
 
    
     <div class="row">
@@ -142,25 +138,35 @@
     </div>
 
     <div class="row mt-3 mb-5">
-        <div class="col-3 colum-one">
+        <div class="col-lg-3 colum-one">
             <p>DCP-L2550DW</p>
             <p><b>Device Status: </b><span style="color: orange;">Offline</span></p>
             <p style="color: orange;">Printing is limited while device is offline</p>
             <img style="width: 200px;" src="assets/images/Brother-MFC-J6530DW-30096457-01.jpg">
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
             <p style="margin-bottom: 0;background-color: orange;">Connected Plan: Occasional</p>
             <p style="padding-top: 0; background-color: rgb(248, 221, 170);">$3.49 for <b>100 Pages a Month</b></p>
 
             <div class="row">
-                <div class="col-6 colum-one">
+                <div class="col-lg-6 colum-one">
                     <p><b>Pages Printed</b></p>
-                    <div class="circle"></div>
+                    <div class="circleone"><div class="col-12  inner-circle"><p>0/100</p></div></div>
+                    
+                     <!-- <div class="single-chart">
+                        <svg viewBox="0 0 25 25" [ngClass]="strokeColor">
+                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                          <path class="circle" [attr.stroke-dasharray]="strokeDashArray" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" /> 
+                          
+                        </svg>
+                      </div> -->
+                    
                     <p><b>Occasional: 100 pages a month</b></p>
+                    <a href="#" style="text-decoration: none;"><p>View Print History</p></a>
                 </div>
-                <div class="col-6 colum-one">
+                <div class="col-lg-6 colum-one">
                     <p><b>Rollover Pages Printed</b></p>
-                    <div class="circle"></div>
+                    <div class="circleone"><div class="col-12  inner-circle"><p>0/200</p></div></div>
                     <p><b>Occasional: 100 pages a month</b></p>
                 </div>
 
@@ -168,12 +174,17 @@
             
 
         </div>
-        <div class="col-3 colum-one">
+        <div class="col-lg-3 colum-one">
             <p style="margin-bottom: 0;"><b>Additional Purchases:</b></p>
             <p>1 set of 20 Pages for <b>$1.00</b></p>
             <p><b>Overage Pages</b></p>
-            <div class="circle"></div>
+            <div class="col-12 circleone"><div class="col-12  inner-circle"><p>0/100</p></div></div>
+            
+            <!-- <div class="align-self-center">
+                <svg><circle cy="100" cx="50" r="100"></circle></svg> 
+            </div> -->
             <p><b>Occasional: 100 pages a Month</b></p>
+            <a href="#" style="text-decoration: none"><p>View Billing History</p></a>
         </div>
     </div>
 
@@ -196,13 +207,13 @@
     </div>
     
     <div class="row pb-2 info">
-        <div class="col">
+        <div class="col-md-4">
             <h3>Profile Information</h3><br>
             <p><b>Name:</b><br>Rushikesh Giri</p>
             <p><b>Email Address:</b><br>girirushikesh2@gmail.com</p>
             <p><b>Phone Number:</b><br>(983)123-1414</p>
         </div>
-        <div class="col" style="border-left: 1px solid rgb(194, 194, 194);">
+        <div class="col-md-4" style="border-left: 1px solid rgb(194, 194, 194);">
             <h3>Billing Information</h3><br>
             <p><b>Cardholder Name:</b><br>Rushikesh Giri</p>
             <p><b>Billing Address:</b><br>200 Crossing Blvd<br>Fl 4<br>Bridgewater, NJ 08807</p>
@@ -217,7 +228,7 @@
             </div>                       
             
         </div>
-        <div class="col" style="border-left: 1px solid rgb(194, 194, 194);">
+        <div class="col-md-4" style="border-left: 1px solid rgb(194, 194, 194);">
             <h3>Shipping Information</h3><br>
             <p><b>Ship to:</b><br>Rushikesh Giri</p>
             <p><b>Shipping Address:</b><br>200 Crossing Blvd<br>Fl 4<br>Bridgewater, Nj 08807-2861</p>
@@ -246,13 +257,7 @@
 <!--
       _______________________ MODAL_______________________ 
 -->
-<!-- <div class="container-fluid">
-    <div class="row">
-        <div class="col align-self-center">
-            
-        </div>    
-    </div>    
-</div> -->
+
 
 
 <div class="modalone" id="modalone">
@@ -295,28 +300,24 @@
 </div>
 <div id="overlay"></div>
 
-<!-- _______________   Dropdown         _________________ -->
 
-
-
-<!-- <div class="dropdown side">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-      Menu<br>>>
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-    </ul>
-</div> -->
 
 <div class="btn-group dropend">
     <button type="button" class="btn " data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
       Menu<br>>>
     </button>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <ul class="dropdown-menu sidemenu" >
+        <li><a  class="dropdown-item" href="#">Plan Overview</a></li>
+        <li><a  class="dropdown-item" href="#">My Plan and Printers</a></li>
+        <li><a  class="dropdown-item" href="#">Print History</a></li>
+        <li><a  class="dropdown-item" href="#">Account Information</a></li>
+        <li><a  class="dropdown-item" href="#">Billing Information</a></li>
+        <li><a  class="dropdown-item" href="#">Shipping Information</a></li>
+        <li><a  class="dropdown-item" href="#">Notifications</a></li>
+        
     </ul>
   </div>
+
+
+  
+

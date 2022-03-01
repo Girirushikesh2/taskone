@@ -1,5 +1,5 @@
 .company-header-background{
-    background-color: blue;
+    background-color: #0D2EA0;
     padding: 25px;
     
 }
@@ -13,7 +13,7 @@
 
 
 .container-fluid{
-    width: 900px;
+    width: 80%;
 }
 
 
@@ -28,5 +28,5 @@
    
 }
 .imp-links a:hover{
-    color: blue;
+    color: #0D2EA0;
 }

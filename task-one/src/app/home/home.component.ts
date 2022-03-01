@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input, OnChanges, SimpleChanges  } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  // @Input() strokeColor: string = "";
+  // @Input() strokeDashArray: string = "";
+  // singleLine: boolean = true;
+
 
   constructor() { }
 
@@ -49,27 +54,10 @@ export class HomeComponent implements OnInit {
     }
 
 
-
-    // document.addEventListener('click',e=>{
-    //   const isDropdownButton = e.document.getElementById('alpha')
-    //   const isDropdownButton = e.target?.matches("[data-dropdown-button]")
-    //   if(!isDropdownButton && e.target?.closest('[data-dropdown]')!=null)return
-
-    //   let currentDropdown:any
-    //   if(isDropdownButton){
-    //     currentDropdown = e.target.closest('[data-dropdown]')
-    //     currentDropdown.classList.toggle('active')
-    //   }
-
-    //   document.querySelectorAll("[data-dropdown].active").forEach(dropdown =>{
-    //     if(dropdown === currentDropdown)return
-    //     dropdown.classList.remove('active')
-    //   })
-
-
-    // }
-    // )
+    
 
   }
+
+  
 
 }
